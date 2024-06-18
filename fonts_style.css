@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter-Light.otf);
+    font-weight: 500;
+    font-style: light;
+}
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter-Medium.otf);
+    font-weight: 700;
+    font-style: medium;
+}
+@font-face {
+    font-family: "jose";
+    src: url(./fonts/JosefinSlab-Bold.ttf);
+    font-weight: 700;
+    font-style: bold;
+}
+@font-face {
+    font-family: "Tenor";
+    src: url(./fonts/TenorSans-Regular.ttf);
+    font-weight: 500;
+    font-style: medium;
+}
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter-Thin.otf);
+    font-weight: 300;
+    font-style: light;
+}
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter-ExtraLight.otf);
+    font-weight: 100;
+    font-style: medium;
+}

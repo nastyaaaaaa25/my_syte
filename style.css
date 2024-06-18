@@ -1,3 +1,253 @@
+@import url('./fonts_style.css');
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 body{
-    background-color: #FFFCF5;
+    width: 1440px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #FFFCF5 !important;
+    flex-direction: column;
+}
+nav{
+    width:100%;
+    height: 100px;
+    
+  
+}
+.navbar-expand-lg .navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bg-body-tertiary{
+    background-color: #FFFCF5 !important;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:1200px !important;
+    height: 100px;
+   
+    
+
+}
+div#navbarSupportedContent.collapse.navbar-collapse{
+    display: flex !important;
+    align-items: center;
+    justify-content: end;
+    width: 200px;
+
+}
+.mb-2{
+    margin: 0 !important;
+}
+nav ul{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0 !important;
+}
+.navbar-nav {
+
+    --bs-nav-link-padding-y: 0rem !important;
+}
+.nav-link{
+    height: 30px;
+    display: flex;
+    display: flex;
+    align-items: center;
+    color: #B4785F !important;
+    text-decoration: underline  !important;
+    
+
+}
+.navbar-brand{
+    color: #B4785F !important;
+}
+nav a button{
+    border-radius: 5px;
+    width: 118px;
+    height: 35px;
+    text-decoration: none;
+    background-color:#FDE8D9;
+    color: #B4785F;
+    border: none;
+    color: #B4785F !important;
+}
+.section-about{
+    display: flex;
+    background-image: url(./img/Vector\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 1323px;
+
+}
+.section-about .right{
+    display: flex;
+    transform: translateX(-175px);
+}
+.section-about .right img{
+    width:230px;
+    height: 297px;
+}
+.section-about .right img#foto1 {
+    transform: translateY(70px) translateX(111px);
+    z-index: 1;
+}
+.section-about .right img#foto2{
+    width: 372px;
+    height:  472px;
+    align-self: center;
+    transform: translateY(-165px);
+    z-index: 0;
+    
+}
+.section-about .right img#foto3{
+    transform: translateY(600px) translateX(-104px);
+}
+.section-about .left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 624px;
+    height: 465px;
+    margin-left: 150px;
+    margin-top: 200px;
+}
+.section-about .left h2{
+    margin-bottom: 20px;
+    font-family: "jose";
+    font-size: 60px;
+}
+.section-about .left h5{
+    margin-bottom: 100px;
+    font-family: "inter";
+    font-weight: 85px;
+    color: #828282;
+}
+.section-about .left button{
+    height: 62px;
+    width: 260px;
+}
+.section-about .left .text{
+    font-family: "Tenor";
+    font-size: 20px;
+    width: 612px;
+}
+.section-skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.section-skills .cont-right img{
+    width: 300px;
+    height: 300px;
+}
+.section-skills .s-cont .cont-left img{
+    width: 300px;
+    height: 300px;
+}
+.section-skills .s-cont .cont-left{
+width: 300px;
+margin-right: 250px;
+}
+.section-skills.text{
+    width: 400px;
+}
+div.f-cont {
+    background-image: url(./img/back.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 1294px;
+    height: 662px;
+ 
+}
+div.f-cont .cont-left{
+    margin-right: 250px;
+}
+.section-skills h3{
+    font-family: "jose";
+    font-size: 50px;
+}
+.section-skills .text{
+    width: 392px;
+    font-size: 18px;
+    font-family: "Tenor";
+}
+div.s-cont {
+    background-image: url(./img/back2.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 1294px;background-repeat: no-repeat;
+    background-size: cover;
+    height: 662px;
+}
+.section-portfolio{
+    background:#FDE8D9;
+    width: 300%;
+    height: 1391px;
+    box-shadow: 30px 20px 20px 30px #FDE8D9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+justify-content: center;
+}
+.section-portfolio .right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-portfolio .left{
+    width: 393px;
+}
+.section-contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.kontakt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.kontakt h2{
+    font-size: 60px;
+    font-family: "jose";
+    font-weight: 700;
+}
+.section-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+}
+.section-footer{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
 }

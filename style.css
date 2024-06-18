@@ -125,6 +125,15 @@ nav a button{
     margin-left: 150px;
     margin-top: 200px;
 }
+.section-about button{
+    width: 252px;
+    height: 62px;
+    border-radius: 5px;
+    color: #FDE8D9;
+    background-color: #B4785F;
+    border: none;
+    margin-top: 100px;
+}
 .section-about .left h2{
     margin-bottom: 20px;
     font-family: "jose";
@@ -202,7 +211,7 @@ div.s-cont {
 }
 .section-portfolio{
     background:#FDE8D9;
-    width: 300%;
+    width: 400%;
     height: 1391px;
     box-shadow: 40px 20px 20px 40px #FDE8D9;
     display: flex;

@@ -150,6 +150,7 @@ nav a button{
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 50px;
 
 }
 .section-skills .cont-right img{
@@ -203,11 +204,12 @@ div.s-cont {
     background:#FDE8D9;
     width: 300%;
     height: 1391px;
-    box-shadow: 30px 20px 20px 30px #FDE8D9;
+    box-shadow: 40px 20px 20px 40px #FDE8D9;
     display: flex;
     flex-direction: row;
     align-items: center;
 justify-content: center;
+margin-bottom: 100px;
 }
 .section-portfolio .right{
     display: flex;
@@ -215,13 +217,64 @@ justify-content: center;
     flex-direction: column;
 }
 .section-portfolio .left{
-    width: 393px;
+    width: 373px;
+    margin-right: 100px;
+}
+.section-portfolio h2{
+    font-size: 60px;
+    font-family: "jose";
+}
+.section-portfolio h5{
+    font-size: 20px;
+    font-family: "inter";
+    font-weight: 100;
+    color: #828282;
+    margin-bottom: 120px;
+}
+.section-portfolio .text{
+    font-family: "Tenor";
+    font-size: 20px;
+}
+.section-portfolio .text-portf-1{
+    margin-bottom: 20px;
+}
+.section-portfolio .text-portf-2{
+    margin-bottom: 100px;
 }
 .section-contacts{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
+}
+.section-contacts h2{
+    font-family: "jose";
+    font-size: 60px;
+}
+.section-portfolio button{
+    width: 252px;
+    height: 62px;
+    border-radius: 5px;
+    color: #FDE8D9;
+    background-color: #B4785F;
+    border: none;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 70px;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+}
+.social a{
+    color: #0D0B21;
+    font-family: "Tenor";
+}
+.social img{
+    width: 100px;
+    height: 100px;
 }
 .kontakt{
     display: flex;
@@ -235,19 +288,91 @@ justify-content: center;
     font-weight: 700;
 }
 .section-form{
+    background-color: #FDE8D9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 40px 20px 20px 40px #FDE8D9;
+    width: 400%;
+    padding: 50px;
+}
+.section-form h2{
+    font-family: "jose";
+    font-size: 60px;
+}
+.section-form h5{
+    font-family: "inter";
+    font-size: 20px;
+    color: #828282;
+    margin-bottom: 30px;
+}
+.section-form button{
+    width: 252px;
+    height: 62px;
+    border-radius: 5px;
+    color: #FDE8D9;
+    background-color: #B4785F;
+    border: none;
+    margin-top: 30px;
+}
+.mini-form{
+    width: 393px;
+}
+.mini-form input{
+    width: 100%;
+}
+.mini-form .col-md-4{
+    width: 100%;
+    margin-bottom: 10px;
+}.mini-form input#no_int{
+    width: 20px;
+    height: 20px;
+}
+.mini-form input#int{
+    border: 2px solid #B4785F;
+    height: 50px;
+}
+.mini-form label{
+    font-family: "tenor";
+    font-size: 15px;
 }
 footer{
-    width: 100%;
+    width: 400%;
+    background-color: #B4785F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 .section-footer{
     width: 1440px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    
 
+}
+.section-footer .right-con {
+    height: 125px;
+    width: 71px;
+    color: #FDE8D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-footer .left-con {
+    color: #FDE8D9;
+}
+.section-footer .mid-con{
+    margin: 0 305px;
+
+}
+.section-footer{
+    font-family: "inter";
+    padding: 20px 0;
+}
+.section-footer p{
+    margin: 0;
 }

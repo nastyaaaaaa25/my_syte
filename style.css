@@ -133,7 +133,13 @@ nav a button{
     background-color: #B4785F;
     border: none;
     margin-top: 100px;
+    transition: 2s;
 }
+.section-about button:hover{
+    background-color: #765141;
+    transition: 1s;
+}
+
 .section-about .left h2{
     margin-bottom: 20px;
     font-family: "jose";
@@ -275,6 +281,11 @@ margin-bottom: 100px;
     color: #FDE8D9;
     background-color: #B4785F;
     border: none;
+    transition: 2s;
+}
+.section-portfolio button:hover{
+    background-color: #765141;
+    transition: 1s;
 }
 .social{
     display: flex;
@@ -331,6 +342,11 @@ margin-bottom: 100px;
     background-color: #B4785F;
     border: none;
     margin-top: 30px;
+    transition: 2s;
+}
+.section-form button:hover{
+    background-color: #765141;
+    transition: 1s;
 }
 .mini-form{
     width: 393px;
@@ -392,6 +408,14 @@ footer{
 .section-footer p{
     margin: 0;
     
+}
+input#no_int{
+    background-color: #ffffff;
+    border: #B4785F 2px solid;
+    
+}
+.form-check-input:checked[type=checkbox]{
+    --bs-form-check-bg-image: url(https://img.icons8.com/?size=100&id=7690&format=png&color=b4785f) !important;
 }
 .section-footer a{
     text-decoration: none;

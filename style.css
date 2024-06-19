@@ -342,7 +342,14 @@ margin-bottom: 100px;
     background-color: #B4785F;
     border: none;
     margin-top: 30px;
+
     transition: 2s;
+}
+.section-form a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 }
 .section-form button:hover{
     background-color: #765141;

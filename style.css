@@ -589,6 +589,9 @@ input#no_int{
 
 }
 @media (max-width: 320px){
+    body{
+        width: 320px;
+    }
     .container{
         width: 220px
     }
@@ -642,7 +645,7 @@ input#no_int{
     .section-about .left h5{
         font-size: 15px;
     }
-    .text .text1{
+    div.text.text1{
         width: 320px !important;
     }
     .section-about button{
@@ -783,6 +786,6 @@ input#no_int{
             border-top: #FDE8D9 2px solid;
             text-align: center;
         }
-        .section-footer checkbox
+        
 
 }
